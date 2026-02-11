@@ -17,7 +17,7 @@ POST: is used to send new data to the server
 
 Q4)
 HTTP status code : it is a code number returned by the server to describe the result of a request
-404: not found , 200 : success , 400 : bad request
+404: not found , 200 : success , 400 : bad request , 201 : created , 401 : unauthorized , 403 : forbidden , 500 : server error
 
 
 Q5)
@@ -43,4 +43,16 @@ Q9)
 Authentication: verifies who the user is
 Authorization: decides what the user is allowed to access
 
+
+
+---------------------------------
+(Part D) linux commands:
+
+1) pwd (for detect the current path that I'm in)
+
+2) ls (list the directory contents)
+
+3) touch filename.txt & mkdir folder_name(create a file and create a directory)
+
+4) chmod 755 filename.txt (change the file permissions)
 
